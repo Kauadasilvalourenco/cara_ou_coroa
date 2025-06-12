@@ -1,0 +1,55 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "ETH_B";
+    src: url("fontes/ETH_B_gofa/ETH_B_gofa.ttf") format("truetype");
+}
+
+body {
+    width: 99%;
+    height: 100vh;
+    background-color: #1B2E40;
+    position: relative;
+}
+
+main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #6F7372;
+    max-width: 500px;
+    min-width: 280px;
+    height: 300px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 7px 7px 15px #0000007c;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    border-radius: 20px;
+    font-family: "ETH_B", Arial, Helvetica, serif;
+}
+
+input#botao_jogar {
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    display: block;
+    border-radius: 20px;
+    font-family: "ETH_B", Arial, Helvetica, serif;
+    font-weight: bold;
+    font-size: 1em;
+    background-color: #00bfffcb;
+}
+
+p#resultado {
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 1.5em;
+    color: #ffffff;
+    font-family: "ETH_B", Arial, Helvetica, serif;
+}
